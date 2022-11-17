@@ -1,0 +1,20 @@
+{
+    "name": "Sonos Web Docker Image",
+    "version": "latest",
+    "slug": "sonos-web",
+    "description": "Config for Sonos Web as a Home Assistant addon",
+    "arch": [
+      "amd64",
+      "armv7"
+    ],
+    "url": "https://github.com/tomverhoeff/hass-addons/sonosweb",
+    "startup": "application",
+    "boot": "auto",
+    "host_network": true,
+    "legacy": true,
+    "ports": {
+      "80/tcp": 3010
+    },
+    "image": "sonosweb/sonos-web"
+  }
+  
