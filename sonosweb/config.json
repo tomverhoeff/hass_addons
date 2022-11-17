@@ -16,7 +16,7 @@
     "host_network": true,
     "legacy": true,
     "ports": {
-        "80/tcp": 3010
+        "5050/tcp": 5050
     },
     "image": "sonosweb/sonos-web"
 }
