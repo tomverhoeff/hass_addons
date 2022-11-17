@@ -4,8 +4,11 @@
     "slug": "sonos-web",
     "description": "Config for Sonos Web as a Home Assistant addon",
     "arch": [
-      "amd64",
-      "armv7"
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
     ],
     "url": "https://github.com/tomverhoeff/hass-addons/sonosweb",
     "startup": "application",
@@ -13,8 +16,7 @@
     "host_network": true,
     "legacy": true,
     "ports": {
-      "80/tcp": 3010
+        "80/tcp": 3010
     },
     "image": "sonosweb/sonos-web"
-  }
-  
+}
